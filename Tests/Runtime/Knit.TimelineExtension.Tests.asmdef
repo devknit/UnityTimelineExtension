@@ -1,0 +1,16 @@
+{
+    "name": "Knit.TimelineExtension.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9b695fc96b58bbf44aebda586bdfb7a6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

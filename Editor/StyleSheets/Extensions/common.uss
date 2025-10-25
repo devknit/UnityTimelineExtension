@@ -1,0 +1,20 @@
+﻿ParticleSystemMarker
+{
+	width:16px;
+	height:16px;
+}
+AnimatorTriggerMarker
+{
+	width:16px;
+	height:16px;
+}
+TrailRendererMarker
+{
+	width:16px;
+	height:16px;
+	background-image: resource("TrailRenderer Icon");
+}
+TrailRendererMarker:hover:focus:checked
+{
+	background-image: resource("d_TrailRenderer Icon");
+}

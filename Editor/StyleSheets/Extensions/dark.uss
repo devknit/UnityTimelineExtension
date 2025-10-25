@@ -1,0 +1,16 @@
+﻿ParticleSystemMarker
+{
+	background-image: resource("d_ParticleSystem Icon");
+}
+ParticleSystemMarker:hover:focus:checked
+{
+	background-image: resource("d_Particle Effect");
+}
+AnimatorTriggerMarker
+{
+	background-image: resource("d_AnimationClip Icon");
+}
+AnimatorTriggerMarker:hover:focus:checked
+{
+	background-image: resource("d_AnimationClip On Icon");
+}
