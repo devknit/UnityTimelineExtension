@@ -4,7 +4,7 @@ using UnityEngine.Playables;
 using UnityEngine.Animations;
 using System.Collections.Generic;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	internal class AnimatorTrackLayer
 	{

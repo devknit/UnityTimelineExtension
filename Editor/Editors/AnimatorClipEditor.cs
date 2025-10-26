@@ -4,7 +4,7 @@ using UnityEngine.Timeline;
 using UnityEditor;
 using UnityEditor.Timeline;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	[CustomTimelineEditor( typeof( AnimatorClip))]
 	sealed class AnimatorClipEditor : ClipEditor

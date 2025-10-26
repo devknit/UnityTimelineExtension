@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Animations.Rigging;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	sealed class TwoBoneIKMixerBehaviour : PlayableBehaviour
 	{

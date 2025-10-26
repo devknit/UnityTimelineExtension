@@ -2,12 +2,14 @@
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackColor( 173.0f / 255.0f, 144.0f / 255.0f, 242.0f / 255.0f)]
 	[TrackClipType( typeof( SpriteColorClip))]
 	[TrackBindingType( typeof( SpriteRenderer))]
+	[DisplayName( "Knit.Timeline/Sprite Color Track")]
 	sealed class SpriteColorTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

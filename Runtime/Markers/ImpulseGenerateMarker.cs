@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using Cinemachine;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	// [CustomStyle( "ImpulseGenerateMarker")]

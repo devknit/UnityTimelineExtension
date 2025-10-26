@@ -2,12 +2,14 @@
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackColor( 0.9f, 0.9f, 0.9f)]
 	[TrackClipType( typeof( TransformClip))]
 	[TrackBindingType( typeof( Transform))]
+	[DisplayName( "Knit.Timeline/Transform Track")]
 	sealed class TransformTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

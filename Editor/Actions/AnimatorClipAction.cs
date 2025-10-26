@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor.Timeline;
 using UnityEditor.Timeline.Actions;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	[MenuEntry("Custom Actions/Sample Timeline Action")]
 	sealed class AnimatorClipAction : TimelineAction

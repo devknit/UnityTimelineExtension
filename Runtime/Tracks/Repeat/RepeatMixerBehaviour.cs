@@ -6,7 +6,7 @@ using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using System.Collections.Generic;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public interface ISection
 	{

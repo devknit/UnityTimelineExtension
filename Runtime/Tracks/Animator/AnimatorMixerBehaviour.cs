@@ -4,7 +4,7 @@ using UnityEngine.Playables;
 using UnityEngine.Animations;
 using UnityEngine.Experimental.Animations;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	sealed class AnimatorMixerBehaviour : PlayableBehaviour
 	{

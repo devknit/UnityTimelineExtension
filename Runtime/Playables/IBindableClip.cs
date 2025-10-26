@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public interface IBindableClip
 	{

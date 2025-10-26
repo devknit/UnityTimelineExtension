@@ -6,7 +6,7 @@ using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public static partial class Binder
 	{

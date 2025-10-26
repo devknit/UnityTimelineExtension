@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Conditional( "UNITY_EDITOR")]
 	public sealed class SectionParamAttribute : PropertyAttribute 

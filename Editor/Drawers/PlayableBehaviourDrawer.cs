@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	[CustomPropertyDrawer( typeof( PlayableBehaviour), true)]
 	sealed class PlayableBehaviourDrawer : PropertyDrawer 

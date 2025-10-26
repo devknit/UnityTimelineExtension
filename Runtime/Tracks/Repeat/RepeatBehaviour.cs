@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	sealed class RepeatBehaviour : PlayableBehaviour, ISection

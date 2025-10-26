@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Timeline;
 using System.Collections.Generic;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	sealed class BindableTrack
 	{

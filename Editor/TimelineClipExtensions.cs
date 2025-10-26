@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.Timeline;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	static class TimelineClipExtensions
 	{

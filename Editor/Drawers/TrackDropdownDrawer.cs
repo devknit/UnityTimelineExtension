@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	[CustomPropertyDrawer( typeof( TrackDropdownAttribute))]
 	sealed class TrackAssetDrawer : PropertyDrawer 

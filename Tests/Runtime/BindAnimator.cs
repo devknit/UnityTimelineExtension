@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Knit.TimelineExtension.Test
+namespace Knit.Timeline.Test
 {
 	public class BindAnimator : MonoBehaviour, IPlayableAssetInfo
 	{

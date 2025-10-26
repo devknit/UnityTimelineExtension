@@ -3,12 +3,14 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackClipType( typeof( VideoClip))]
 	[TrackBindingType( typeof( VideoPlayer))]
 	[TrackColor( 2.0f / 255.0f, 178.0f / 255.0f, 167.0f / 255.0f)]
+	[DisplayName( "Knit.Timeline/Video Track")]
 	sealed class VideoTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

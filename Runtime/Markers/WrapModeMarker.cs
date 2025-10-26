@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	public sealed class WrapModeMarker : UniversalMarker, INotification
@@ -30,7 +30,6 @@ namespace Knit.TimelineExtension
 			}
 		#endif
 		}
-
 		[Space]
 		[SerializeField]
 		DirectorWrapMode m_WrapMode = DirectorWrapMode.Hold;

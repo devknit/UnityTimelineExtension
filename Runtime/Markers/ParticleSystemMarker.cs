@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	[CustomStyle( "ParticleSystemMarker")]

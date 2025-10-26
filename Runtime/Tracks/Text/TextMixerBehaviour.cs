@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	sealed class TextMixerBehaviour : PlayableBehaviour
 	{

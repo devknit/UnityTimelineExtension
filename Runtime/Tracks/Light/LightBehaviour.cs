@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	internal sealed class LightBehaviour : PlayableBehaviour

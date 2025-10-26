@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Timeline;
 
-namespace Knit.TimelineExtension.Test.Editor
+namespace Knit.Timeline.Test.Editor
 {
 	[CustomEditor(typeof(PlayableBinder))]
 	sealed partial class PlayableBinderEditor : UnityEditor.Editor

@@ -2,13 +2,15 @@
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 using System.Collections.Generic;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackBindingType( typeof( Animator))]
 	[TrackClipType( typeof( AnimatorClip))]
 	[TrackColor( 127.0f / 255.0f, 252.0f / 255.0f, 228.0f / 255.0f)]
+	[DisplayName( "Knit.Timeline/Animator Track")]
 	sealed class AnimatorTrack : TrackAsset, ILayerable
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

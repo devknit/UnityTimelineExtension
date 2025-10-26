@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public interface IBindableObject
 	{

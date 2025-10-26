@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
     [ExcludeFromPreset]

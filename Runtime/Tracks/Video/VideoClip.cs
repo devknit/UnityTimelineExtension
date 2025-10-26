@@ -5,7 +5,7 @@ using UnityEngine.Video;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	sealed class VideoClip : PlayableAsset, ITimelineClipAsset

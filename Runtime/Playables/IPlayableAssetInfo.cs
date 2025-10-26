@@ -1,5 +1,5 @@
 ﻿
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public interface IPlayableAssetInfo
 	{

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public static partial class Binder
 	{

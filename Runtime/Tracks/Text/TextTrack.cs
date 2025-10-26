@@ -3,12 +3,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackColor( 0.0f, 0.7f, 0.9f)]
 	[TrackClipType( typeof( TextClip))]
 	[TrackBindingType( typeof( TMP_Text))]
+	[DisplayName( "Knit.Timeline/Text Track")]
 	sealed class TextTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

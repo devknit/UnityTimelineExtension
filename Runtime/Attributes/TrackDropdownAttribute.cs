@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Conditional( "UNITY_EDITOR")]
 	public sealed class TrackDropdownAttribute : PropertyAttribute 

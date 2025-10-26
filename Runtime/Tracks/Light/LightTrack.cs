@@ -2,12 +2,14 @@
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackBindingType( typeof( Light))]
 	[TrackClipType( typeof( LightClip))]
 	[TrackColor( 240.0f / 255.0f, 250.0f / 255.0f, 100.0f / 255.0f)]
+	[DisplayName( "Knit.Timeline/Light Track")]
 	sealed class LightTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)

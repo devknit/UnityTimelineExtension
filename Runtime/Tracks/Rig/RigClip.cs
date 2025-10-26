@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[System.Serializable]
 	sealed class RigClip : PlayableAsset, ITimelineClipAsset

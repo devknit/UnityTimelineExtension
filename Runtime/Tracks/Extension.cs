@@ -9,7 +9,7 @@ using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using UnityEngine.Animations;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	public static partial class Extension
 	{

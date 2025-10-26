@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Knit.TimelineExtension.Test
+namespace Knit.Timeline.Test
 {
 	[RequireComponent(typeof(PlayableDirector))]
 	sealed internal class PlayableBinder : MonoBehaviour

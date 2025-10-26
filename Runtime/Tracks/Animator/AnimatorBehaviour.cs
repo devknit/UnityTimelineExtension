@@ -6,7 +6,7 @@ using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using UnityEngine.Animations;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[Serializable]
 	sealed class AnimatorBehaviour : PlayableBehaviour

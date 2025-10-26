@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Video;
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	sealed class VideoMixerBehaviour : PlayableBehaviour
 	{

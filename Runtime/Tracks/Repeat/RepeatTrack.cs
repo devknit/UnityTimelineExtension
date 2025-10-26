@@ -3,12 +3,14 @@ using System;
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Timeline
 {
 	[TrackClipType( typeof( RepeatClip))]
 	[TrackBindingType( typeof( RepeatReceiver))]
 	[TrackColor( 235.0f / 255.0f, 51.0f / 255.0f, 36.0f / 255.0f)]
+	[DisplayName( "Knit.Timeline/Sequence/Repeat Track")]
 	sealed class RepeatTrack : TrackAsset, IRepeatTrack
 	{
 		public ISeekTarget GetDefaultTarget()

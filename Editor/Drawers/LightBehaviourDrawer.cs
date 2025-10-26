@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Reflection;
 
-namespace Knit.TimelineExtension.Editor
+namespace Knit.Timeline.Editor
 {
 	[CustomPropertyDrawer( typeof( LightBehaviour))]
 	sealed class LightEmissionBehaviourDrawer : PropertyDrawer
